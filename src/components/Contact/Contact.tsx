@@ -21,8 +21,8 @@ export function Contact() {
           </a>
         </div>
         <div>
-          <img src={phoneIcon} alt="Email" />
-          <a href="phone:+8801682413033">(+880) 1682 41 30 33</a>
+          <img src={phoneIcon} alt="Phone" />
+          <a href="phone:+8801682413033">(+880) 1682 41 30 33 (Whatsapp)</a>
         </div>
       </div>
       <Form></Form>

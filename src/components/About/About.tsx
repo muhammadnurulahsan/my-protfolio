@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 import cssIcon from "../../assets/css-icon.svg";
-import NurulAhsan from "../../assets/about.png";
+import NurulAhsan from "../../assets/profile-image.png";
 import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
@@ -18,10 +18,10 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
           <p>
-            My name is Nurul Ahsan, I'm a computer technician with a great
-            passion for programming. I am passionate about delivering solutions
-            that add to people's lives and at the same time challenge me.
-            Improved my skills as a Front-End and Back-End developer.
+            My name is Nurul Ahsan, I'm a computer technician with a
+            great passion for programming. I am passionate about delivering
+            solutions that add to people's lives and at the same time challenge
+            me. Improved my skills as a Front-End and Back-End developer.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -100,7 +100,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src={NurulAhsan} alt="Img of Nurul Ahsan" />
+          <img src={NurulAhsan} alt="Img of Muhammad Nurul Ahsan" />
         </ScrollAnimation>
       </div>
     </Container>

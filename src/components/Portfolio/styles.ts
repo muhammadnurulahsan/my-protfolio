@@ -103,9 +103,14 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 740px) {
+  @media (max-width: 768px) {
     .projects {
       grid-template-columns: 1fr;
+    }
+  }
+  @media (max-width: 425px) {
+    .tech-list {
+      gap: 0.7rem !important;
     }
   }
 `;
