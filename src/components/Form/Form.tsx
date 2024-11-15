@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import validator from "validator";
 
 export function Form() {
-  const [state, handleSubmit] = useForm("myForm");
+  const [state, handleSubmit] = useForm("xpwzrezl");
   const [validEmail, setValidEmail] = useState(false);
   const [isHuman, setIsHuman] = useState(false);
   const [message, setMessage] = useState("");
