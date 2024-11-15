@@ -110,7 +110,11 @@ export const Container = styled.section`
   }
   @media (max-width: 425px) {
     .tech-list {
-      gap: 0.7rem !important;
+      gap: 0rem !important;
+      font-size: 1.4rem !important;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
   }
 `;
